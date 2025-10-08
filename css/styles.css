@@ -7,7 +7,7 @@
 body{
     font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
-
+    /* INICIO NAVBAR  */
 .nav{
     background: #000;
     height: 80px;
@@ -35,6 +35,8 @@ body{
     font-weight: bold;
 }
 
+/* fim da navbar */
+ /* inicio main */
 .main{
     width: 100%;
     height: calc(100vh - 80px);
@@ -72,3 +74,80 @@ body{
     transform: scale(1.1);
     transition: 0.9s;
 }
+
+    /* fim da main  */
+
+    /* inicio sobre */
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #fff;
+    width: 100%;
+    padding: 80px 10%;
+}
+
+.sobre img{
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.sobre div{
+    max-width: 50%;
+    padding-right: 40PX;
+}
+
+.sobre div h2{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+    /* fim do sobre */
+
+    /* inicio projetos  */
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.lista-projetos{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.projetos p{
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.projetos img{
+    width: 22%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 8px;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+
+.projetos img:hover{
+    opacity: 1;
+    transition: 0.9s;
+}
+    /* fim dos projetos */
